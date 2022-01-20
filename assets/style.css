@@ -1,0 +1,125 @@
+:root {
+    --h1: black;
+    --h2: #353935;
+}
+
+* {
+    background-color: lightgrey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding-bottom: 10px;
+}
+
+nav ul li {
+    text-align: center;
+    display: inline;
+    font-size: 40px;
+    margin-left: 160px;
+    background-color: black;
+}
+
+nav ul a {
+    color: white;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* nav ul li:hover {
+    color: red;
+    border-bottom: solid 2px red;
+} */
+
+nav ul a:hover {
+    color: red;
+    border-bottom: solid 2px red;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    border-bottom: dashed 5px var(--h1);
+    padding-bottom: 20px;
+    border-top: dashed 5px var(--h1);
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    border-bottom: solid 2px var(--h2);
+}
+
+body p {
+    text-align: center;
+}
+
+#emailAddress {
+    align-items: center;
+}
+
+#email {
+   text-align: center;
+}
+
+.sidebars {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    margin-bottom: 100px;
+    padding-bottom: 1000px;
+    margin-left: 20px;
+}
+
+.sidebars img {
+    flex-wrap: wrap;
+}
+
+.sidebars p {
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+.sidebars ol {
+    background-color: black;
+    color: white;
+    list-style: none;
+}
+
+.sidebars ol li {
+    background-color: black;
+    color: white;
+    margin-left: -40px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.sidebars h3 {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+}
+
+#image {
+    height: 300px;
+    width: 75%;
+    margin-bottom: 15px;
+    background-image: url("https://theartsdevelopmentcompany.org.uk/wp-content/uploads/2019/02/Website-Building-Landscape-1280x640.jpg");
+}
+
+#image:hover{
+    opacity: 0.7;
+}
