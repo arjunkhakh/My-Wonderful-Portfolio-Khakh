@@ -1,12 +1,17 @@
+/* My Variables defined at the top for my headers */
 :root {
     --h1: black;
     --h2: #353935;
 }
 
+/* Universal Tags for designing the whole page  */
+
 * {
     background-color: lightgrey;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+/* Nav Bar tags */
 
 nav ul {
     list-style: none;
@@ -30,16 +35,12 @@ nav ul a {
     text-decoration: none;
 }
 
-/* nav ul li:hover {
-    color: red;
-    border-bottom: solid 2px red;
-} */
-
 nav ul a:hover {
     color: red;
     border-bottom: solid 2px red;
 }
 
+/* Header and Body Tags */
 h1 {
     font-size: 100px;
     text-align: center;
@@ -60,6 +61,8 @@ body p {
     text-align: center;
 }
 
+/* Id's for Contact Me Section */
+
 #emailAddress {
     align-items: center;
 }
@@ -67,6 +70,8 @@ body p {
 #email {
    text-align: center;
 }
+
+/* Sidebar Classes used for the design of the sidebar */
 
 .sidebars {
     margin-right: 20px;
@@ -113,6 +118,7 @@ body p {
     font-size: 40px;
 }
 
+/* Image Ids for the image under the Work section */
 #image {
     height: 300px;
     width: 75%;
@@ -124,9 +130,13 @@ body p {
     opacity: 0.7;
 }
 
-.resume {
-    size: 50%;
+/* Resume Class for the image displayed on the resume page */
+img#resumeid {
+    width: 70%;
+    height: 70%;
 }
+
+/* Media Screen Queries to adapt to the page */
 
 @media screen  and (max-width:1200px) {
     .nav ul a {
@@ -142,7 +152,12 @@ body p {
     display: block;
     width: 80%;
     height: 10%;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-right: 3%;
+    }
+
+    img#resumeid {
+        width: 85%;
+        height: 80%;
     }
 }
