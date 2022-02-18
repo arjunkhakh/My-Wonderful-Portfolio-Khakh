@@ -139,14 +139,29 @@ body p {
 
 /* Image Ids for the image under the Work section */
 #image {
-    height: 300px;
-    width: 100%;
+    height: 500px;
+    width: 98%;
     margin-bottom: 15px;
     background-image: url("./images/Market-Watch.png");
+    margin-top: 5px;
+    border: 5px solid black;
 }
 
 #image:hover{
-    opacity: 0.7;
+    opacity: 0.8;
+}
+
+#image2 {
+    height: 500px;
+    width: 98%;
+    margin-bottom: 15px;
+    background-image: url("./images/Weather\ Dashboard.png");
+    margin-top: 5px;
+    border: 5px solid black;
+}
+
+#image2:hover{
+    opacity: 0.8;
 }
 
 /* Resume Class for the image displayed on the resume page */
@@ -186,6 +201,12 @@ img#resumeid {
     color: white;
   }
 
+  .imgContainer1 {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+
 #centered {
     position: absolute;
     top: 50%;
@@ -195,6 +216,20 @@ img#resumeid {
     font-size: 100px;
     text-align: center;
     font-variant-caps: small-caps;
+  }
+
+  #centered1 {
+    position: absolute;
+    top: 10.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 100px;
+    text-align: center;
+    font-variant-caps: small-caps;
+    color: white;
+    background-color: black;
+    padding: 2px;
   }
 
 /* Media Screen Queries to adapt to the page */
