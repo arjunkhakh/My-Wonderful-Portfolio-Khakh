@@ -33,6 +33,7 @@ nav ul a {
     background-color: black;
     list-style: none;
     text-decoration: none;
+    font-variant-caps: small-caps;
 }
 
 nav ul a:hover {
@@ -55,6 +56,7 @@ h2 {
     font-size: 50px;
     text-align: center;
     border-bottom: solid 2px var(--h2);
+    font-variant-caps: small-caps;
 }
 
 body p {
@@ -116,14 +118,31 @@ body p {
     background-color: black;
     color: white;
     font-size: 40px;
+    text-decoration: underline;
+    font-variant-caps: small-caps;
+}
+
+.sidebars .container1 h3 {
+    display: flex;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    font-variant-caps: small-caps;
+}
+
+.container1 {
+    border: 1px solid grey;
+    background-color: black;
+    
 }
 
 /* Image Ids for the image under the Work section */
 #image {
     height: 300px;
-    width: 75%;
+    width: 100%;
     margin-bottom: 15px;
-    background-image: url("https://theartsdevelopmentcompany.org.uk/wp-content/uploads/2019/02/Website-Building-Landscape-1280x640.jpg");
+    background-image: url("./images/Market-Watch.png");
 }
 
 #image:hover{
@@ -136,10 +155,52 @@ img#resumeid {
     height: 70%;
 }
 
+#avatar {
+    border-radius: 150px;
+}
+
+#center {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#brackets {
+    font-size: 10px;
+    background-color: black;
+}
+
+#firstImage {
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://miro.medium.com/max/960/1*PaZT9QBa-Dt9K9FE9-CkbA.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+.imgContainer {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+#centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    font-size: 100px;
+    text-align: center;
+    font-variant-caps: small-caps;
+  }
+
 /* Media Screen Queries to adapt to the page */
 
 @media screen  and (max-width:1200px) {
-    .nav ul a {
+    .nav ul li {
         float: none;
         width: 100%;
         text-align: center;
