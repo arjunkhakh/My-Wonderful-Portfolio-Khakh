@@ -242,7 +242,7 @@ img#resumeid {
     }
 
     nav ul li a {
-        font-size: 30px;
+        font-size: 35px;
     }
 
     #centered {
@@ -257,7 +257,7 @@ img#resumeid {
       }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     .sidebars {
     display: block;
@@ -284,6 +284,6 @@ img#resumeid {
       }
 
       nav ul li a {
-        font-size: 19px;
+        font-size: 28px;
     }
 }
