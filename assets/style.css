@@ -170,6 +170,11 @@ img#resumeid {
     height: 70%;
 }
 
+#resumeText {
+    font-size: 30px;
+    font-variant-caps: all-petite-caps;
+}
+
 #avatar {
     border-radius: 150px;
 }
