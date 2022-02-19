@@ -235,11 +235,26 @@ img#resumeid {
 /* Media Screen Queries to adapt to the page */
 
 @media screen  and (max-width:1200px) {
-    .nav ul li {
+    nav ul li {
         float: none;
-        width: 100%;
+        width: 60%;
         text-align: center;
     }
+
+    nav ul li a {
+        font-size: 30px;
+    }
+
+    #centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        font-size: 80px;
+        text-align: center;
+        font-variant-caps: small-caps;
+      }
 }
 
 @media screen and (max-width: 800px) {
@@ -255,5 +270,20 @@ img#resumeid {
     img#resumeid {
         width: 85%;
         height: 80%;
+    }
+
+    #centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+        font-size: 50px;
+        text-align: center;
+        font-variant-caps: small-caps;
+      }
+
+      nav ul li a {
+        font-size: 19px;
     }
 }
